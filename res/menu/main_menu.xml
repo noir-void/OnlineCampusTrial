@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Home Menu Item -->
+    <item
+        android:id="@+id/action_home"
+        android:title="Home"
+        android:icon="@drawable/homeicon"
+        />
+
+    <!-- Course Menu Items -->
+    <item
+        android:id="@+id/DataStructures"
+        android:title="Course: Data Structures"
+         />
+    <item
+        android:id="@+id/WebDevelopment"
+        android:title="Course: Web Development"
+         />
+    <item
+        android:id="@+id/MobilDevelopment"
+        android:title="Course: Mobile Development"
+         />
+
+    <!-- Exit Menu Item -->
+    <item
+        android:id="@+id/exit"
+        android:title="Exit"
+         />
+
+</menu>
